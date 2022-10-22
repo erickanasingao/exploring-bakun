@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Explore Bakun</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>ravel</a>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#packages">Packages</a>
+        <a href="#location">Location</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About Us</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+
+</header>
+
+<div class="login-form-container">
+
+    <i class="fas fa-time" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">register now</a></p>
+    </form>
+</div>
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>discover new places with us, adventure awaits</p>
+        <a href="a" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="video/Poblacion.mp4"></span>
+        <span class="vid-btn" data-src="video/Kayapa.mp4"></span>
+        <span class="vid-btn" data-src="video/Ampusongan.mp4"></span>
+        <span class="vid-btn" data-src="video/Bagu.mp4"></span>
+        <span class="vid-btn" data-src="video/Gambang.mp4"></span>
+        <span class="vid-btn" data-src="video/Sinacbat.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="video/Poblacion.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+</section>
+
+<section class="book" id="book">
+    <h1 class="heading">
+        <span>v</span>
+        <span>i</span>
+        <span>s</span>
+        <span>i</span>
+        <span>t</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+        <div class="images">
+            <img src="images/Travel.jpg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>where to</h3>
+                <input type="text" placeholder="Name of place">
+            </div>
+            <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrival</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>departure</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+    </div>
+</section>
+
+<section class="location" id="location">
+    <h1 class="heading">
+        <span>l</span>
+        <span>o</span>
+        <span>c</span>
+        <span>a</span>
+        <span>t</span>
+        <span>i</span>
+        <span>o</span>
+        <span>n</span>
+    </h1>
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/Map.JPG" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Bakun, Benguet</h3>  
+            </div>
+        </div>
+
+</section>
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/Mt.Lobo.jpg" alt="">
+            <div class="content">
+                <h2>Mt.Lobo</h2>
+                <h3><i class="fas fa-map-marker-alt"></i>Dada, Poblacion, Bakun</h3>
+                <p>Mt. Lobo is part of the famed "Bakun Trio", the three big mountains that can be climbed in three consecutive days from the small village of Poblacion, Bakun, in Benguet.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> Php800.00</div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/mt.kabunyan-benguet.jpg" alt="">
+            <div class="content">
+                <h2>Mt. Kabunyan And Bakun Burial Cave</h2>
+                <h3><i class="fas fa-map-marker-alt"></i>Poblacion, Bakun</h3>
+                <p>It is an emerging natural attraction found in Poblacion. This mountain is popularly known as the "home of the kankana-ey god, Kabunian." </p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> Php1000.00</div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/mount-tenglawan.jpg" alt="">
+            <div class="content">
+                <h2>Mt. Tenglawan</h2>
+                <h3><i class="fas fa-map-marker-alt"></i>Sinacbat, Bakun</h3>
+                <p>It is a potential natural attraction found in Sinacbat. This rocky mountain is even more imposing than Mt. Kabunyan. Its façade from its foot at Sinacbat provides a challenge to any experienced or hardly climber. No amenities are readily available but the barangay residents' hospitality is well-known.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> Php1200.00</div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/mt-liblibo-benguet.jpg" alt="">
+            <div class="content">
+                <h2>Mt. Liblibo</h2>
+                <h3><i class="fas fa-map-marker-alt"></i>Bagu, Bakun</h3>
+                <p>It is a potential natural attraction found Bagu. Known as the home of the clouds, experienced mountain climbers are needed to explore the place. No foot trails are available.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> Php700.00</div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/bakun-waterfalls-benguet.jpg" alt="">
+            <div class="content">
+                <h2>Mangta Falls</h2>
+                <h3><i class="fas fa-map-marker-alt"></i>Sinacbat, Bakun</h3>
+                <p>Mangta Falls in Bakun, Benguet. This is one of more than five waterfalls that can be accessed via barangay Poblacion in the town. Although the town is more well-known for its trio of mountains (Tenglawan, Lubo, Kabunian), it's also a great place to go hunting for waterfalls</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> Php600.00</div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+            <div class="box">
+                <img src="images/pattan-falls-benguet.jpg" alt="">
+                <div class="content">
+                    <h2>Pattan Falls</h2>
+                    <h3><i class="fas fa-map-marker-alt"></i>Poblacion, Bakun</h3>
+                    <p>One of the major falls in the municipality due to its towering height and proximity to Mt. Kabunian.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> Php400.00</div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+        <div class="box">
+            <img src="images/tekipfalls-benguet.jpg" alt="">
+            <div class="content">
+                <h2>Tekip Falls</h2>
+                <h3><i class="fas fa-map-marker-alt"></i>Poblacion, Bakun</h3>
+                <p>One of several waterfalls located in Bakun especially within the vicinity of barangay Poblacion. It's one of the most visited falls in the town because it's more picturesque and is much more accessible compared to the other waterfalls in the area.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> Php300.00</div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Pikaw.jpg" alt="">
+            <div class="content">
+                <h2>Pikaw Falls</h2>
+                <h3><i class="fas fa-map-marker-alt"></i>Poblacion, Bakun</h3>
+                <p>Unlike other major falls in Bakun, Pikaw Falls retains enough volume of water to maintain a reasonable view even during summer days. During rainy months, the volume of water makes even the falls more beautiful and sometimes changes its clear water to chocolate-like color during heavy downpour.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> Php600.00</div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        
+        <div class="box">
+            <img src="images/Nagasa.jpg" alt="">
+            <div class="content">
+                <h2>Nagasa Cave</h2>
+                <h3><i class="fas fa-map-marker-alt"></i>Poblacion, Bakun</h3>
+                <p>Believed to have been a refuge of soldiers during the Second World War, Nagasa Cave had been rediscovered in 1980s by a local hunter (Aro, 2014). It was discovered long time ago but nobody tend to enter due to a cultural belief that evil spirits (locally called Temengao and Anitos) dwell mostly in caves (Balandi Jr., 2017).</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> Php800.00</div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+     
+    </div>
+</section>
+
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-swimmer"></i>
+            <h3>Water Activities</h3>
+            <p>Within a few weeks from now, the rainy season will be bearing upon us at full speed. As water cascades down the hills, mountains, creeks, and streams, our rivers swell to their highest levels. For those looking for a little bit of watery adventure, it’s the perfect time to go chasing waterfalls. So without further ado, I present to you some of the best waterfalls that the municipality of Bakun has to offer.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>Food and Drinks</h3>
+            <p>A new food item that can replace pork meat for the traditionally preserved meat viand is being introduced by the town of Bakun, one of the 13 municipalities of Benguet.The product, kini-ing chicken, is one of the town's featured items in the agri-tourism fair.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>Travel Around Bakun</h3>
+            <p>When you think of Benguet, you usually form a picture of beautiful mountains, rice terraces, fresh vegetables, and cooler climates. It is a place worth exploring if you want to experience an adventure of another level, especially if you love conquering peaks or just being close with nature. Bakun, one of the municipalities in Benguet, is a great starting point when discovering the hidden gems of this beautiful mountainous region.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>Adventure</h3>
+            <p>One of the popular and in my opinion the most serene landscape hiking destination in the country lies at Bakun, Benguet province. There are 3 popular hiking destination which most often dubbed as Bakun Trio.  They are also promoting Mt Gedgedayan to comprise the Bakun Quadro. Mountains here are commonly characterized by a grassy slope and pine tree forest. There are several attractions that will make the hiker enjoy the trip. </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bus"></i>
+            <h3>Trip to Bakun</h3>
+            <p>The only public transport vehicle that goes to Poblacion is a single bus that departs from La Trinidad, Benguet, 1:00 in the afternoon. The bus waits for passengers at the parking lot of Sunrise Commercial Trading in Km. 4, La Trinidad. For those who doesn't know, La Trinidad is a Benguet town neighbouring Baguio City. By jeep, La Trinidad is just 20 minutes to 1 hour away from the city depending on vehicular traffic.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>Safety Guide</h3>
+            <p>There’s nothing quite like immersing yourself in the great outdoors with an excellent hike. Fresh air? Peace and quiet? Stunning views? Yes, please. But as awesomely invigorating as hiking can be, it also carries some real risks.Fortunately, there are many ways to minimize your odds of encountering an emergency while hiking and equip you to handle one just in case. “The more prepared you are, the more likely you are to have a good time and stay safe."</p>
+        </div>
+    </div>
+</section>
+
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+    <div class="box-container">
+            
+        <div class="box">
+            <img src="images/aboitiz-hedcor-lower-labay-hydro.jpg" alt="">
+            <div class="content">
+                <h3>Lon-oy Hydro</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Poblacion.jpg" alt="">
+            <div class="content">
+                <h3>Poblacion, Bakun</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Tallak.jpg" alt="">
+            <div class="content">
+                <h3>Tallak</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Tapey.jpg" alt="">
+            <div class="content">
+                <h3>Tapey</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/BAKUN-BURIAL-CAVE.jpg.jpg" alt="">
+            <div class="content">
+                <h3>Bakun Burial Cave</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/kiniing.jpg" alt="">
+            <div class="content">
+                <h3>"Kiniing"</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Ampusongan (1).jpg" alt="">
+            <div class="content">
+                <h3>Riverside, Ampusongan</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/bus.jpg" alt="">
+            <div class="content">
+                <h3>Poblacion to La, Trinidad and vice versa</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/church.jpg" alt="">
+            <div class="content">
+                <h3>Sacred Heart of Jesus Church</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Kayapa.jpg" alt="">
+            <div class="content">
+                <h3>Kayapa Elementary school</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Bagu.JPG" alt="">
+            <div class="content">
+                <h3>Bagu, Bakun</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Dalipey.jpg" alt="">
+            <div class="content">
+                <h3>Dalipey, Bakun</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Bakun MPS.jpg" alt="">
+            <div class="content">
+                <h3>Bakun MPS</h3>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/Gambang.jpg" alt="">
+            <div class="content">
+                <h3>Gambang, Bakun</h3>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/Bakun_Town.jpg" alt="">
+            <div class="content">
+                <h3>Poblacion, Bakun</h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="review" id="review">
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+        <span>s</span>
+    </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/r1.jpg" alt="">
+                    <h3>Marie Lee</h3>
+                    <p>The place is so mesmerizing! I hope I can visit again.</p>
+                    <div class="  ">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/r2.jpg" alt="">
+                    <h3>Ann Makiling@03</h3>
+                    <p>Excellent for two hours worth the money. We did enjoyed and lots of fun. Mr Hassan EFE is very helpful and honest person he will help you according to what you want. He speaks good english. Just tell him what you want to do and he will organize and help you and he will give you some options and idea.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/r3.jpg" alt="">
+                    <h3>Rizwan A</h3>
+                    <p>Hasan Efe is very kind and honest. He gives genuine advice and very reasonable prices. Our ATV tour he organised was perfect with the best price in town.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/r4.png" alt="">
+                    <h3>@201Hans</h3>
+                    <p>Love the Bakun Trio!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/r5.jpg" alt="">
+                    <h3>Marie Lee</h3>
+                    <p>The place is so mesmerizing! I hope I can visit again.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/r6.png" alt="">
+                    <h3>Marie Lee</h3>
+                    <p>The place is so mesmerizing! I hope I can visit again.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/r7.jpg" alt="">
+                    <h3>Marie Lee</h3>
+                    <p>The place is so mesmerizing! I hope I can visit again.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+    <div class="row">
+        <div class="image">
+            <img src="images/Contact.png" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+
+            <div class="inputBox">
+                <input type="tel" placeholder="telephone">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <h1 class="heading">
+        <span>a</span>
+        <span>b</span>
+        <span>o</span>
+        <span>u</span>
+        <span>t</span>
+        <span class="space"></span>
+        <span>u</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="images/Bkn.jpg" alt="">
+                <form action="">
+                <div class="inputBox">
+                    <h3>BAKUN, BENGUET<br>
+                    Municipality in the Philippines
+                    Bakun, officially the Municipality of Bakun, is a 3rd class municipality in the province of Benguet, Philippines. According to the 2020 census, it has a population of 14,535 people.
+                    Bakun is located at 16°47′00″N 120°43′40″E, at the northwestern tip of Benguet. It is bounded by Mankayan on the east, Buguias on the southeast, Kibungan on the south, Sugpon on the south-west, Alilem on the north-west, and Cervantes on the north.
+                    According to the Philippine Statistics Authority, the municipality has a land area of 286.91 square kilometres (110.78 sq mi) constituting 10.36% of the 2,769.08-square-kilometre- (1,069.15 sq mi) total area of Benguet.
+                    Bakun is 336 kilometres (209 mi) away from Manila and 86 kilometres (53 mi) away from Baguio. 
+                    Barangays
+                    Bakun is politically subdivided into 7 barangays. These barangays are headed by elected officials: Barangay Captain, Barangay Council, whose members are called Barangay Councilors. All are elected every three years.</h3>
+                </div>
+            </div> 
+            
+        </div>
+       
+    </div>
+</section>
+
+<section class="footer" id="footer">
+    <div class="footer">
+    <a href="#">© 2022 All Rights Reserved. Design by ErickaNasingao<br>
+              erickanasingao02@gmail.com</a>
+        <p>
+            <i class="fab fa-2x fa-facebook-square"></i>
+            <i class="fab fa-2x fa-twitter-square"></i>
+            <i class="fab fa-2x fa-youtube-square"></i>
+            <i class="fab fa-2x fa-instagram"></i>
+            <i class="fab fa-2x fa-flickr"></i>
+        </p>
+    </div>
+</section>
+    
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<!-- custom js file link -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
